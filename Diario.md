@@ -27,3 +27,10 @@ A classe UI (User Interface), recebe o método printBoard(), dentro do Program.
 Recebeu um método auxiliar para imprimir uma peça.
 Criada lógica para imprimir o tabuleiro.
 
+## Peças no tabuleiro 
+1 - Criado o método placePiece na classe Board, acessa a posição da peça livremente, dentro do pacote boardgame.
+2 - Criada a classe Rook (Torre) e King (Rei), as peças são adicionadas em um subpacote.
+3 - Na classe ChessMatch, foi criado o método initialSetup(), 
+que inicia a partida de xadrez colocando as peças no tabuleiro.
+
+
