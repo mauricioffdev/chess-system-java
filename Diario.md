@@ -12,25 +12,34 @@ O método é protected para proteger que apenas classes e subclasses da camada B
 Criada a classe Board, com a estrutura de dados, "Matriz "Piece[][] pieces", construtor e getter and setter.
 
 ## Camada de Xadrez e imprimir o tabuleiro 
-1 - Criar o método Board.Piece(row, column) and Board.Piece(position)
-2 - Implementar o Chess.Color, que é um tipo enumerado, ele pertence a camada chess. 
+1 - Criar o método Board.Piece(row, column) and Board.Piece(position)  
+2 - Implementar o Chess.Color, que é um tipo enumerado, ele pertence a camada chess.   
 3 - Criada classe ChessPiece que extends Piece.
-Adionado construtor e o Get, sem o Set, pois a cor não deve ser alterada. 
+Adionado construtor e o Get, sem o Set, pois a cor não deve ser alterada.   
 4 - Criada a classe ChessMatch, coração do xadrez. 
 Recebeu o construtor com Matriz para liberar o ChessPiece, para o programa conhecer a camada de xadrez apenas
 não a de tabuleiro. 
 Criado o For para percorer a matriz (Linhas e colunas) e o downcasting para interpretar como peça de xadrez e não uma 
-peça comum. Retorna a matriz mat.
+peça comum. Retorna a matriz mat.   
 5 - Criada a função que imprime as peças da partida.
-A classe UI (User Interface), recebe o método printBoard(), dentro do Program.
+A classe UI (User Interface), recebe o método printBoard(), dentro do Program.   
 6 - Criada a classe UI no pacote application
 Recebeu um método auxiliar para imprimir uma peça.
 Criada lógica para imprimir o tabuleiro.
 
 ## Peças no tabuleiro 
-1 - Criado o método placePiece na classe Board, acessa a posição da peça livremente, dentro do pacote boardgame.
-2 - Criada a classe Rook (Torre) e King (Rei), as peças são adicionadas em um subpacote.
+1 - Criado o método placePiece na classe Board, acessa a posição da peça livremente, dentro do pacote boardgame.   
+2 - Criada a classe Rook (Torre) e King (Rei), as peças são adicionadas em um subpacote.   
 3 - Na classe ChessMatch, foi criado o método initialSetup(), 
 que inicia a partida de xadrez colocando as peças no tabuleiro.
 
+## Criação da de uma exceção personalizada e implementar uma programação defensiva na classe tabuleiro
+1 - Criada a classe BoardException no pacote boardgame.   
+2 - Adicionado os métodos positionExists e thereIsAPiece na classe board.   
+3 - Criada uma proteção no construtor da classe board
+if (rows < 1 || columns < 1) //Se a qtd de linhas for menor do que 1 ou colunas menor do que 1,   
+lançamos a exceção personalizada
+throw new BoardException("Erro cheating board: there musr be at least 1 row and 1 column");  
+Ainda sobre programação defensiva, tiramos o método set rows e set columns  
+para que n seja alterada a qtd de linhas e colunas.
 

@@ -7,16 +7,16 @@ public class Position {
     private int row;
     private int column;
 
-    public Position(int raw, int column) {
-        this.row = raw;
+    public Position(int row, int column) {
+        this.row = row;
         this.column = column;
     }
 
-    public int getRaw() {
+    public int getRow() {
         return row;
     }
 
-    public void setRaw(int raw) {
+    public void setRow(int raw) {
         this.row = raw;
     }
 
