@@ -47,6 +47,15 @@ para que n seja alterada a qtd de linhas e colunas.
 Criada a classeChessException e o construtor que passa a msg para a super classe.   
 Criada a class ChessPosition com construtores, atributos, métodos e o GETTER.  
 Atualizada a classe Chess Match.  
+OBS: Deu um erro, perdi um tempo para sacar que no método Piece piece na classe Board eu tinha escrito Rows e Columns  
+mas o correto deve ser row e column, no singular. PQP!  
+
+## Melhora no tabuleiro com cores 
+Pegamos o código no GIT para mudar as cores da peça e atualização a classe UI. Link da fonte comentado na classe.   
+Atualizado também o código da classe ChessMatch, para ajuste de cores no console.  
+Na pasta production criada pelo IntelliJ, abri o Git bash para rodar colorido o programa.  
+Para rodar usei java application/Program  
+
 
 
 
