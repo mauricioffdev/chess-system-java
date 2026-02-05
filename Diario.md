@@ -43,3 +43,10 @@ throw new BoardException("Erro cheating board: there musr be at least 1 row and 
 Ainda sobre programação defensiva, tiramos o método set rows e set columns  
 para que n seja alterada a qtd de linhas e colunas.
 
+## Exceção na camada de Xadrez e Position 
+Criada a classeChessException e o construtor que passa a msg para a super classe.   
+Criada a class ChessPosition com construtores, atributos, métodos e o GETTER.  
+Atualizada a classe Chess Match.  
+
+
+
