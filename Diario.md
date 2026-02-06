@@ -54,7 +54,22 @@ mas o correto deve ser row e column, no singular. PQP!
 Pegamos o código no GIT para mudar as cores da peça e atualização a classe UI. Link da fonte comentado na classe.   
 Atualizado também o código da classe ChessMatch, para ajuste de cores no console.  
 Na pasta production criada pelo IntelliJ, abri o Git bash para rodar colorido o programa.  
-Para rodar usei java application/Program  
+Para rodar usei java application/Program    
+
+## Método removePiece na classe board 
+Criado méotod removePiece, lógica:
+Se a posição não existe (position), lançamos uma exceção com msg.  
+Se piece(position) igual a null, retorna null.  
+Criamos uma variável Piece aux recebendo piece(position).  
+Inicia com null e retorna a variável aux com a peça retirada. 
+
+## Método readChessPosition para ler uma posição do usuário
+Adicionado na classe UI (readChessPosition).    
+
+## Método ChessMove
+Retira a peça de uma posição de origem para a poisção de destino. 
+
+
 
 
 
