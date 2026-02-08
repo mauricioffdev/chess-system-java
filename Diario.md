@@ -67,7 +67,13 @@ Inicia com null e retorna a variável aux com a peça retirada.
 Adicionado na classe UI (readChessPosition).    
 
 ## Método ChessMove
-Retira a peça de uma posição de origem para a poisção de destino. 
+Retira a peça de uma posição de origem para a poisção de destino.   
+
+## Tratando exceções e limpando a tela   
+Criado o método clearScreen() na classe UI, para limpar a tela do console no GitBash.  
+Obs: Lembrando que estamos rodando na pasta "bin" com o comando java application.Program  
+Tratamos duas exceções em program, dentro do bloco Try, "ChessException e InputMismatchException"  
+
 
 
 
