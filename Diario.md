@@ -81,6 +81,13 @@ Criado o método isThereAnyPossibleMove()
 Atualizado provisóriamente classes King, Rook e ChessPiece.  
 Atualizada exceção na classe ChessMatch, isThereAnyPossibleMove()  
 
+## Possíveis movimentos da torre  
+Implementato o método ChessPiece.IsThereOpponentPiece(position) [protected], para saber se existe uma peça asversária  
+em uma dada casa. Protected, pois só tem acesso a classes do mesmo pacote.  
+Implementamos os movimentos possíveis da torre na classe Rook.  
+
+
+
 
 
 
