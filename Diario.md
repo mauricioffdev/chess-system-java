@@ -86,6 +86,12 @@ Implementato o método ChessPiece.IsThereOpponentPiece(position) [protected], pa
 em uma dada casa. Protected, pois só tem acesso a classes do mesmo pacote.  
 Implementamos os movimentos possíveis da torre na classe Rook.  
 
+## Impressão dos movimentos possíveis  
+Atualizada as classes UI e ChessMath.  
+Obs: Rodando colorido no console do IntelliJ, movimentos possíveis da peça em azul.  
+Adicionei um salto de linha na classe Program, após o Source, e Target, para não ficar colado com o board.  
+
+
 
 
 
