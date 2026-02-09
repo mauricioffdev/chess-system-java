@@ -72,7 +72,16 @@ Retira a peça de uma posição de origem para a poisção de destino.
 ## Tratando exceções e limpando a tela   
 Criado o método clearScreen() na classe UI, para limpar a tela do console no GitBash.  
 Obs: Lembrando que estamos rodando na pasta "bin" com o comando java application.Program  
-Tratamos duas exceções em program, dentro do bloco Try, "ChessException e InputMismatchException"  
+Tratamos duas exceções em program, dentro do bloco Try, "ChessException e InputMismatchException".  
+
+## Possíveis movimentos de uma peça 
+Criado o método abstract, boolean[][] possibleMoves(), matriz boleana.
+Criado o método (hook method) que faz um gancho com a subclasse. Método concreto retonando um abstrato.  
+Criado o método isThereAnyPossibleMove()  
+Atualizado provisóriamente classes King, Rook e ChessPiece.  
+Atualizada exceção na classe ChessMatch, isThereAnyPossibleMove()  
+
+
 
 
 
