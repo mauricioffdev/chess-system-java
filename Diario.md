@@ -76,7 +76,8 @@ Tratamos duas exceções em program, dentro do bloco Try, "ChessException e Inpu
 
 ## Possíveis movimentos de uma peça 
 Criado o método abstract, boolean[][] possibleMoves(), matriz boleana.
-Criado o método (hook method) que faz um gancho com a subclasse. Método concreto retonando um abstrato.  
+Criado o método (hook method) que faz um gancho com a subclasse.  
+Método concreto retonando um abstrato.  
 Criado o método isThereAnyPossibleMove()  
 Atualizado provisóriamente classes King, Rook e ChessPiece.  
 Atualizada exceção na classe ChessMatch, isThereAnyPossibleMove()  
@@ -89,7 +90,12 @@ Implementamos os movimentos possíveis da torre na classe Rook.
 ## Impressão dos movimentos possíveis  
 Atualizada as classes UI e ChessMath.  
 Obs: Rodando colorido no console do IntelliJ, movimentos possíveis da peça em azul.  
-Adicionei um salto de linha na classe Program, após o Source, e Target, para não ficar colado com o board.  
+Adicionei um salto de linha na classe Program, após o Source, e Target, para não ficar colado com o board.   
+
+## Implementar os movimentos do King  
+Criado método canMove() que fala que o rei pode se mover para uma determinada posição.  
+Implementado os movimentos do rei em possibleMoves()  
+
 
 
 
