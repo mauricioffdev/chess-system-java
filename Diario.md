@@ -94,7 +94,17 @@ Adicionei um salto de linha na classe Program, após o Source, e Target, para n�
 
 ## Implementar os movimentos do King  
 Criado método canMove() que fala que o rei pode se mover para uma determinada posição.  
-Implementado os movimentos do rei em possibleMoves()  
+Implementado os movimentos do rei em possibleMoves()    
+
+## Troca de jogador em cada turno 
+Adicionada as propriedades turn, currentPlayer e os métodos get na classe CheesMatch  
+Método NextTurn que troca o turno. Usamos operador ternário:  
+currentPlayer = (currentPlayer == Color.WHITE) ? Color.BLACK : Color.WHITE;   
+Atualizado validadeSourcePosition com uma nova exceção.  
+Criado o método printMatch na classe UI.  
+
+
+
 
 
 
