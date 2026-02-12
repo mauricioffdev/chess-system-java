@@ -103,6 +103,15 @@ currentPlayer = (currentPlayer == Color.WHITE) ? Color.BLACK : Color.WHITE;
 Atualizado validadeSourcePosition com uma nova exceção.  
 Criado o método printMatch na classe UI.  
 
+## Manipulação das peças capturadas  
+Criado o método que manipula as peças capturadas na classe UI  
+
+## Método que imprime as peças capturadas  
+Criado método pra imprimir as peças capturadas na classe UI  
+Implementando um controle de peças capturadas na classe ChessMatch  
+
+
+
 
 
 
