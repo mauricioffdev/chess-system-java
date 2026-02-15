@@ -110,6 +110,14 @@ Criado o método que manipula as peças capturadas na classe UI
 Criado método pra imprimir as peças capturadas na classe UI  
 Implementando um controle de peças capturadas na classe ChessMatch  
 
+## Lógica do Check    
+Criado o método ChessPosition na classe ChessPiece.  
+Método UndoMove na classe ChessMatch.  
+Atualizada a classe UI com "Check" no método printMatch()  
+
+
+
+
 
 
 
