@@ -115,6 +115,17 @@ Criado o método ChessPosition na classe ChessPiece.
 Método UndoMove na classe ChessMatch.  
 Atualizada a classe UI com "Check" no método printMatch()  
 
+## Lógica do Check Mate  
+Criada a propriedade checkMate em ChessMatch  
+Criado o método getCheckMate  
+Implementada a lógiga testCheckMate  
+Atualizado performChessMove na classe ChessMatch  
+Atualizado printMatch na classe UI e initialSetup
+Atualizada classe Program (While e Try)  
+
+
+
+
 
 
 
