@@ -123,6 +123,11 @@ Atualizado performChessMove na classe ChessMatch
 Atualizado printMatch na classe UI e initialSetup
 Atualizada classe Program (While e Try)  
 
+## Contagem do movimento das peças  
+Na classe CheessPiece, adicionamos a propriedade moveCount  
+Os métodos increaseMoveCount e decreaseMoveCount  
+Atualizado método makeMove e undoMove na classe ChessMatch  
+
 
 
 
