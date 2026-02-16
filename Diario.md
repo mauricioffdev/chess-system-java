@@ -126,7 +126,11 @@ Atualizada classe Program (While e Try)
 ## Contagem do movimento das peças  
 Na classe CheessPiece, adicionamos a propriedade moveCount  
 Os métodos increaseMoveCount e decreaseMoveCount  
-Atualizado método makeMove e undoMove na classe ChessMatch  
+Atualizado método makeMove e undoMove na classe ChessMatch    
+
+# Peça peão  
+Classe Pawn e a lógica do peão branco e preto.  
+
 
 
 
