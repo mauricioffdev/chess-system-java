@@ -135,6 +135,10 @@ Classe Pawn e a lógica do peão branco e preto.
 Criada a classe Bishop + a lógica de movimentação dele.  
 Basicamente é a mesma da Torre, por isso foi copiado e apenas ajustado o código.  
 
+## Cavalo  
+Criada a classe Knight + a lógica de movimentação dele.  
+
+
 
 
 
