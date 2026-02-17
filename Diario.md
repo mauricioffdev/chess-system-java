@@ -131,6 +131,10 @@ Atualizado método makeMove e undoMove na classe ChessMatch
 # Peça peão  
 Classe Pawn e a lógica do peão branco e preto.  
 
+## Bispo  
+Criada a classe Bishop + a lógica de movimentação dele.  
+Basicamente é a mesma da Torre, por isso foi copiado e apenas ajustado o código.  
+
 
 
 
