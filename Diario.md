@@ -138,6 +138,11 @@ Basicamente é a mesma da Torre, por isso foi copiado e apenas ajustado o códig
 ## Cavalo  
 Criada a classe Knight + a lógica de movimentação dele.  
 
+## Rainha
+Implementação da rainha.  
+
+
+
 
 
 
