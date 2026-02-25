@@ -144,6 +144,10 @@ Implementação da rainha.
 ## Implementando a jogada Especial Roque (Castling)  
 Atulizamos King, o método MakeMove e o Método UndoMove na classe ChessMatch.  
 
+## Jogada especial - En Passant  
+Atualizações na classe ChessMatch  
+
+
 
 
 
