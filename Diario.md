@@ -147,6 +147,9 @@ Atulizamos King, o método MakeMove e o Método UndoMove na classe ChessMatch.
 ## Jogada especial - En Passant  
 Atualizações na classe ChessMatch  
 
+## Implementando a jogada especial promoção  
+Atualizações na classe ChassMatch 
+
 
 
 
